@@ -1,0 +1,37 @@
+
+public class SudokoNumberCheck {
+private int[] sudoko = {1,2,3,4,5,6};
+	private Thread[] tests = new Thread[27];
+	
+	public SudokoNumberCheck(){
+	tests[0] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+	tests[1] =new Thread(new CheckSudoko(new int[]{9,10,11,12,13,14,15,16,17} , sudoko));
+	tests[2] =new Thread(new CheckSudoko(new int[]{18,19,20,21,22,23,24,25,26} , sudoko));
+	tests[3] =new Thread(new CheckSudoko(new int[]{27,28,29} , sudoko));
+	tests[4] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+	tests[5] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+	tests[6] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+	tests[7] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+	tests[8] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+	tests[9] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+	tests[10] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+	tests[11] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+	tests[12] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+	tests[13] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+	tests[14] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+	tests[15] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+	tests[16] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+	tests[17] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+	tests[18] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+	tests[19] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+	tests[20] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+	tests[21] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+	tests[22] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+	tests[23] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+	tests[24] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+	tests[25] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+	tests[26] =new Thread(new CheckSudoko(new int[]{0,1,2,3,4,5,6,7,8} , sudoko));
+
+	}
+
+}

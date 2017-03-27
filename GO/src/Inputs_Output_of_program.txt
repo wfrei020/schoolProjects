@@ -1,0 +1,43 @@
+Input For question 1
+-------------------------------------------------
+
+House
+kitchen : width x length:9.2x11.5
+living : width x length:13x14.5
+dining : width x length:13x11.5
+main : width x length:12.5x12.5
+Semi
+kitchen : width x length:9.2x11.5
+living : width x length:13x14.5
+dining : width x length:13x11.5
+main : width x length:12.5x12.5
+House
+kitchen : width x length:9.2x11.5
+living : width x length:13x14.5
+dining : width x length:13x11.5
+main : width x length:12.5x12.5
+bedroom1 : width x length:10x12.2
+bedroom2 : width x length:11x11.5
+
+Output for question 1
+---------------------------------------------------
+
+House
+kitchen : 2.80 x 3.51 m
+living : 3.96 x 4.42 m
+dining : 3.96 x 3.51 m
+main : 3.81 x 3.81 m
+
+Semi
+kitchen : 2.80 x 3.51 m
+living : 3.96 x 4.42 m
+dining : 3.96 x 3.51 m
+main : 3.81 x 3.81 m
+
+House
+kitchen : 2.80 x 3.51 m
+living : 3.96 x 4.42 m
+dining : 3.96 x 3.51 m
+main : 3.81 x 3.81 m
+bedroom1 : 3.05 x 3.72 m
+bedroom2 : 3.35 x 3.51 m

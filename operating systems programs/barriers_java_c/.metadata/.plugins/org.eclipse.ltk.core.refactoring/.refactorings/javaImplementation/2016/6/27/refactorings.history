@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Semaphore.java&apos; to &apos;Pool.java&apos;&#x0D;&#x0A;- Original project: &apos;javaImplementation&apos;&#x0D;&#x0A;- Original element: &apos;Semaphore.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Pool.java&apos;" description="Rename compilation unit &apos;Semaphore.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{Semaphore.java" name="Pool.java" references="false" stamp="1467051725034" version="1.0"/>
+</session>

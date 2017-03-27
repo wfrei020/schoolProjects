@@ -1,0 +1,6 @@
+0
+player1 2 Walter coins 0  empty  empty  hand Q  O  O  A  R   end 
+player2 2 Freire coins 0  empty  empty  hand O  T  M  H  T   end 
+tradearea No Cards on The table end
+discard  end
+deck O  H  A  Q  Q  T  Q  M  Q  M  O  T  M  M  R  O  Q  H  O  O  Q  H  H  H  M  M  M  R  T  Q  O  E  A  O  Q  E  H  H  Q  O  H  Q  A  R  Q  H  H  T  Q  O  A  H  Q  H  M  E  Q  E  M  R  H  E  Q  T  M  O  A  T  O  O  Q  M  Q  M  A  Q  R  T  T  A  E  T  M  R  R  H  Q  T  R  O  H  R  H  H   end

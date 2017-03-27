@@ -1,0 +1,9 @@
+import java.util.concurrent.Semaphore;
+public class Pool {
+
+	public Pool(int threads){
+		private Semaphore available = new Semaphore(threads);
+	}
+	
+	
+}

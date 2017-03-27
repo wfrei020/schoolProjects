@@ -1,0 +1,3 @@
+T -> a P a S
+P --> P a S | a b
+S ---> S b b | S b | b

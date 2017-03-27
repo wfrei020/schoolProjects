@@ -1,0 +1,17 @@
+
+public class Barrier {
+
+	
+	
+	public Barrier(int numOfThreads){
+		
+	}
+	
+	public void waitForOthers(){
+		
+	}
+	
+	public void freeAll(){
+		
+	}
+}

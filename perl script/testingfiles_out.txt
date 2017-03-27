@@ -1,0 +1,6 @@
+T -> a P a S
+P -> a b PPrime
+PPrime -> a S PPrime |  epsilon
+S -> b SPrime
+SPrime -> b SPrimePrime | epsilon 
+SPrimePrime -> b SPrime | SPrime
